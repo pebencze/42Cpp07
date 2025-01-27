@@ -1,6 +1,11 @@
 # 42Cpp07
 Templates.
 
-template< typename T > 
-implicit or explicit instanciation is possible -> explicit is less error-prone!
-Templates are neither a function nor a class, they are just a model to create a function or a class with a variable of a particular type.
+Templates are neither a function nor a class, they are just a model to create a function or a class with a variable of a particular type. <br/>
+Implicit or explicit instanciation is possible -> explicit is less error-prone! <br/>
+
+No default type: template< typename T > <br/> 
+Default type is float: template< typename T = float > <br/>
+
+Object<int> <br/>
+Object<> <br/>
