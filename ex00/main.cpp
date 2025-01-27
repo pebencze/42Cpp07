@@ -45,5 +45,9 @@ int main(void) {
         << "c: " << c << ", d: " << d << ", max: "  << max(c, d) << std::endl
         << "p1: " << p1 << ", p2: " << p2 << ", max: " << max(p1, p2) << std::endl;
 
+    // std::cout << std::endl;
+    // std::cout << "Different types: \n"
+    //     << "a: " << a << ", c: " << c << ", max: "  << max(a, c) << std::endl;
+
     return (0);
 }
