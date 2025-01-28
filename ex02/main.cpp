@@ -49,6 +49,7 @@ int main(int, char**)
     for (int i = 0; i < MAX_VAL; i++)
     {
         std::cout << test[i] << " " << tmp[i] << " " << numbers[i] << std::endl;
+        std::cout << "size of numbers: " << numbers.size() << std::endl;
     }
     delete [] mirror;//
     return 0;
