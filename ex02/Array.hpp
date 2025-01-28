@@ -9,15 +9,17 @@ class Array {
 		~Array();
 		Array(Array const &src);
 
-		Array const & operator=(Array const &rhs);
-		Array const & operator[](int n);
+		Array & operator=(Array const &rhs);
+		T& operator[](unsigned int n);
 
 		unsigned int size() const ;
 
 	private:
-		unsigned int	_size;
 		T				*_array;
+		unsigned int	_size;
 
 };
+
+# include "Array.tpp"
 
 #endif
