@@ -3,12 +3,12 @@
 template <class T>
 Array<T>::Array() {
 	_array = new T[0];
-	std::memset(_array, 0, 1);
 	_size = 0;
 }
+
 template <class T>
 Array<T>::Array(unsigned int n) {
-	_array = new(n) T;
+	_array = new T(n);
 	_size = n;
 }
 
